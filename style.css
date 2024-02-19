@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding: 25px 30px;
+    color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+    width: 230px;
+}
+.nav i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.center ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+}
+.center ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.right ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+
+}
+.right ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.right ul li:nth-child(2){
+    padding: 20px 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+.right ul li:nth-child(2) a{
+    color: #000;
+}
+.main-body{
+    width: 100%;
+    height: calc(100vh - 130px);
+    position: relative;
+    padding-top: 30px;
+}
+.main-body h1{
+    margin-bottom: -30px;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+    position: relative;
+}
+.main-body h1 span{
+    background: #7E3836;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 30px;
+}
+.play-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    gap: 30px;
+}
+.play-btn i{
+    font-size: 35px;
+    background: #fff;
+    color: #000;
+    padding: 15px 15px;
+    z-index: 99;
+}
+.play-btn h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    padding-left: 20px;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media i{
+    font-size: 25px;
+    font-weight: 500;
+}
+.social-media-icons h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.img1{
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.img2{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    z-index: 1;
+    
+}
+.img3{
+    position: absolute;
+    z-index: 1;
+    bottom: 12%;
+    left: 17%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.img4{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 170px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
