@@ -33,7 +33,7 @@ tl.from(".play-btn h5", {
 })
 tl.from(".social-media-icons i",{
     y:50,
-    duration: 0.5,
+    duration: 0.4,
     delay: 0.5,
     opacity: 0,
     stagger: 0.3
