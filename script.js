@@ -40,6 +40,6 @@ tl.from(".social-media-icons i",{
 })
 tl.from(".social-media-icons h4", {
     y:50,
-    duration: 0.5,
+    duration: 0.4,
     opacity: 0,
 })
